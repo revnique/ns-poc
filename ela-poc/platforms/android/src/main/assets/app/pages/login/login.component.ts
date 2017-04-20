@@ -7,6 +7,7 @@ import { Color } from "color";
 import { View } from "ui/core/view";
 import { setHintColor } from "../../utils/hint-util";
 import { TextField } from "ui/text-field";
+import { Button } from "ui/button";
 
 
 @Component({
@@ -22,6 +23,7 @@ export class LoginComponent implements OnInit {
     @ViewChild("container") container: ElementRef;
     @ViewChild("email") email: ElementRef;
     @ViewChild("password") password: ElementRef;
+    @ViewChild("signIn") signIn: ElementRef;
 
     constructor(private router: Router, private userService: UserService, private page: Page) {
         this.user = new User();
@@ -30,8 +32,9 @@ export class LoginComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.page.actionBarHidden = true;
-        this.page.backgroundImage = "res://ela_home_image";
+        this.page.actionBarHidden = false;
+        this.page.backgroundColor = new Color("#fff");
+        //this.page.backgroundImage = "res://ela_home_image";
     }
 
     submit() {
@@ -75,6 +78,7 @@ export class LoginComponent implements OnInit {
     setTextFieldColors() {
         let emailTextField = <TextField>this.email.nativeElement;
         let passwordTextField = <TextField>this.password.nativeElement;
+        let signInButton = <Button>this.signIn.nativeElement;
 
         let mainTextColor = new Color(this.isLoggingIn ? "black" : "#C4AFB4");
         emailTextField.color = mainTextColor;
@@ -83,5 +87,6 @@ export class LoginComponent implements OnInit {
         let hintColor = new Color(this.isLoggingIn ? "#ACA6A7" : "#C4AFB4");
         setHintColor({ view: emailTextField, color: hintColor });
         setHintColor({ view: passwordTextField, color: hintColor });
+        //setButtonCaps({ view: signInButton  });
     }
 }

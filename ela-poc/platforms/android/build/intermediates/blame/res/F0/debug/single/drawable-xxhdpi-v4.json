@@ -274,5 +274,9 @@
     {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\touchid.png",
+        "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\touchid.png"
     }
 ]

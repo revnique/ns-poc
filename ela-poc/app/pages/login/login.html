@@ -1,9 +1,29 @@
+<ActionBar title="" android.icon="res://ela_rep_icon_mobile" android.iconVisibility="always"></ActionBar>
 <StackLayout #container class="main-page">
-  <Image src="res://ela_rep_icon_mobile" stretch="none" horizontalAlignment="center"></Image>
-
+  <Label class="login-text">
+    <FormattedString>
+        <Span text="Log In"></Span>
+    </FormattedString>
+  </Label>
   <TextField #email hint="Email Address" keyboardType="email" [(ngModel)]="user.email" autocorrect="false" autocapitalizationType="none"></TextField>
   <TextField #password hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
 
-  <Button [text]="isLoggingIn ? 'Sign in' : 'Sign up'" class="submit-button" (tap)="submit()"></Button>
+  <Label class="forget-text">
+     <FormattedString>
+      <Span text="Forget your "></Span> <Span text="email" style.color="blue"></Span>
+     </FormattedString>
+  </Label>
+
+<GridLayout rows="1" columns="2" height="50" style.backgroundColor="#444">
+
+  <Button #signin class="submit-button" (tap)="submit()" col="0" row="0">
+    <FormattedString>
+        <Span [text]="isLoggingIn ? 'Log In' : 'Sign Up'"></Span>
+    </FormattedString>
+  </Button>
+  <Image src="res://touchid" col="1" class="touchid-icon" (tap)="delete($event)" row="0" col="1"></Image>
+
+</GridLayout>
+  
   <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" (tap)="toggleDisplay()"></Button>
 </StackLayout>

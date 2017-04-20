@@ -1,20 +1,50 @@
 .main-page {
-  margin-left: 30;
-  margin-right: 30;
+  margin-left: 0;
+  margin-right: 0;
   padding-bottom: 15;
-  background-color: white;
+  margin-top:10;
 }
 Image {
   margin-top: 5;
   margin-bottom: 20;
 }
-Button, TextField {
+TextField {
   margin-left: 16;
   margin-right: 16;
   margin-bottom: 10;
 }
 .submit-button {
-  background-color: #CB1D00;
+  background-color: #4DC8F2;
   color: white;
   margin-top: 20;
+  text-decoration: capitalize;
+}
+
+
+
+
+.touchid-icon{
+  width:75px;
+}
+
+.forget-text{
+  color:black;
+  font-size: 10;
+  margin-left:23;
+  margin-bottom:20;
+}
+
+.login-text{
+  Color:Green;
+  font-size: 17px;
+  margin-left:23px;
+  font-family: "serif";
+}
+.highlight-text{
+  color:#4DC8F2;
+}
+ActionBar{
+  background-color: #fff;
+  margin-top:0px;
+  margin-left:0px;
 }

@@ -2634,13 +2634,13 @@ containing a value of this type.
         public static final int add=0x7f020053;
         public static final int apple=0x7f020054;
         public static final int avd_hide_password=0x7f020055;
-        public static final int avd_hide_password_1=0x7f02007c;
-        public static final int avd_hide_password_2=0x7f02007d;
-        public static final int avd_hide_password_3=0x7f02007e;
+        public static final int avd_hide_password_1=0x7f02007d;
+        public static final int avd_hide_password_2=0x7f02007e;
+        public static final int avd_hide_password_3=0x7f02007f;
         public static final int avd_show_password=0x7f020056;
-        public static final int avd_show_password_1=0x7f02007f;
-        public static final int avd_show_password_2=0x7f020080;
-        public static final int avd_show_password_3=0x7f020081;
+        public static final int avd_show_password_1=0x7f020080;
+        public static final int avd_show_password_2=0x7f020081;
+        public static final int avd_show_password_3=0x7f020082;
         public static final int banana=0x7f020057;
         public static final int bg_inner=0x7f020058;
         public static final int bg_login=0x7f020059;
@@ -2669,15 +2669,16 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020070;
         public static final int notification_bg_normal_pressed=0x7f020071;
         public static final int notification_icon_background=0x7f020072;
-        public static final int notification_template_icon_bg=0x7f02007a;
-        public static final int notification_template_icon_low_bg=0x7f02007b;
+        public static final int notification_template_icon_bg=0x7f02007b;
+        public static final int notification_template_icon_low_bg=0x7f02007c;
         public static final int notification_tile_bg=0x7f020073;
         public static final int notify_panel_notification_icon_bg=0x7f020074;
         public static final int pear=0x7f020075;
         public static final int recent=0x7f020076;
         public static final int selected=0x7f020077;
-        public static final int unchecked=0x7f020078;
-        public static final int unchecked_white=0x7f020079;
+        public static final int touchid=0x7f020078;
+        public static final int unchecked=0x7f020079;
+        public static final int unchecked_white=0x7f02007a;
     }
     public static final class id {
         public static final int action0=0x7f0c008b;

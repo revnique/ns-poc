@@ -9,13 +9,6 @@
         <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-25.3.1_6230b6df538206d65d19bdcca2e329f97a5483c0.jar" />
     </item>
     <item
-        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-25.3.1_5678dcac3773dd4c6e260f9165d791ae126e1036.jar" />
-    </item>
-    <item
         jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -35,13 +28,6 @@
         revision="25.0.2"
         sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
         <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-25.3.1_ef9ae6812ca60bc230ecc59334e74093c23eb024.jar" />
-    </item>
-    <item
-        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-25.3.1_4d45e3730ba7bd24d6f2666fdb6923ade398d6e9.jar" />
     </item>
     <item
         jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
@@ -72,6 +58,34 @@
         <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-25.3.1_896641de6153f049833a83d574ff7633196f2c7b.jar" />
     </item>
     <item
+        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\groceries\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_529309473bdecdc230f8031f10e7cffc2e8f3164.jar" />
+    </item>
+    <item
+        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-25.3.1_dbd21c1db944d84aaf88ab914d8803c3ec5242c9.jar" />
+    </item>
+    <item
+        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-25.3.1_5678dcac3773dd4c6e260f9165d791ae126e1036.jar" />
+    </item>
+    <item
+        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-25.3.1_4d45e3730ba7bd24d6f2666fdb6923ade398d6e9.jar" />
+    </item>
+    <item
         jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -98,20 +112,6 @@
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-25.3.1_a66d9214ddce7c26445f5d33212e035e41494da5.jar" />
-    </item>
-    <item
-        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\groceries\runtime\unspecified\jars\libs\binding-generator.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
-        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_529309473bdecdc230f8031f10e7cffc2e8f3164.jar" />
-    </item>
-    <item
-        jar="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\git\ns\ns-poc\ela-poc\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-25.3.1_dbd21c1db944d84aaf88ab914d8803c3ec5242c9.jar" />
     </item>
 
 </items>
