@@ -2676,7 +2676,7 @@ containing a value of this type.
         public static final int pear=0x7f020075;
         public static final int recent=0x7f020076;
         public static final int selected=0x7f020077;
-        public static final int touchid=0x7f020078;
+        public static final int touchid_b=0x7f020078;
         public static final int unchecked=0x7f020079;
         public static final int unchecked_white=0x7f02007a;
     }

@@ -700,7 +700,7 @@ int drawable notify_panel_notification_icon_bg 0x7f020074
 int drawable pear 0x7f020075
 int drawable recent 0x7f020076
 int drawable selected 0x7f020077
-int drawable touchid 0x7f020078
+int drawable touchid_b 0x7f020078
 int drawable unchecked 0x7f020079
 int drawable unchecked_white 0x7f02007a
 int id action0 0x7f0c008b

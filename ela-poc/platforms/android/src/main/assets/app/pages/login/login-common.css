@@ -18,6 +18,7 @@ TextField {
   color: white;
   margin-top: 20;
   text-decoration: capitalize;
+  
 }
 
 
@@ -28,10 +29,15 @@ TextField {
 }
 
 .forget-text{
-  color:black;
   font-size: 10;
   margin-left:23;
   margin-bottom:20;
+}
+.highlight-text{
+  color:#4DC8F2;
+}
+.normal-text{
+  color:#000;
 }
 
 .login-text{
@@ -39,9 +45,6 @@ TextField {
   font-size: 17px;
   margin-left:23px;
   font-family: "serif";
-}
-.highlight-text{
-  color:#4DC8F2;
 }
 ActionBar{
   background-color: #fff;

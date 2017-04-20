@@ -8,22 +8,22 @@
   <TextField #email hint="Email Address" keyboardType="email" [(ngModel)]="user.email" autocorrect="false" autocapitalizationType="none"></TextField>
   <TextField #password hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
 
-  <Label class="forget-text">
-     <FormattedString>
-      <Span text="Forget your "></Span> <Span text="email" style.color="blue"></Span>
-     </FormattedString>
-  </Label>
+  <WrapLayout orientation="horizontal" class="forget-text">
+    <Label class="normal-text" text="Forget your "></Label>
+    <Label class="highlight-text" text="email"></Label>
+    <Label class="normal-text" text=" or "></Label>
+    <Label class="highlight-text" text="password"></Label>
+    <Label class="normal-text" text="?"></Label>
+  </WrapLayout>
 
-<GridLayout rows="1" columns="2" height="50" style.backgroundColor="#444">
+  <GridLayout row="0" columns="*, auto" height="50" style.backgroundColor="#fff">
+    <Button #signin class="submit-button" (tap)="submit()" col="0" row="0">
+      <FormattedString>
+          <Span [text]="isLoggingIn ? 'Log In' : 'Sign Up'"></Span>
+      </FormattedString>
+    </Button>
+    <Image src="res://touchid_b" col="1" class="touchid-icon" row="0" col="1"></Image>
+  </GridLayout>
 
-  <Button #signin class="submit-button" (tap)="submit()" col="0" row="0">
-    <FormattedString>
-        <Span [text]="isLoggingIn ? 'Log In' : 'Sign Up'"></Span>
-    </FormattedString>
-  </Button>
-  <Image src="res://touchid" col="1" class="touchid-icon" (tap)="delete($event)" row="0" col="1"></Image>
-
-</GridLayout>
-  
   <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" (tap)="toggleDisplay()"></Button>
 </StackLayout>

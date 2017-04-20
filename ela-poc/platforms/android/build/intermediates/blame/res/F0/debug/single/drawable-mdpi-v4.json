@@ -296,6 +296,10 @@
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-mdpi\\nonselected.png"
     },
     {
+        "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-mdpi-v4\\touchid_b.png",
+        "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-mdpi\\touchid_b.png"
+    },
+    {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     }
