@@ -23,14 +23,14 @@
       </FormattedString>
     </Button>
     <GridLayout row="0" col="1" columns="*, auto" style.width="50px">
-      <Image src="res://touchid_b" class="touchid-icon" row="0"></Image>
+      <Image src="res://touchid_b" class="touchid-icon" row="0" (tap)="touchIdPopup()"></Image>
       
       <Label class="highlight-text txt-xsm touch-id-text" text="Touch ID" row="1"></Label>
     </GridLayout>
   </GridLayout>
 
   <StackLayout class="apply-button-row">    
-    <Image src="res://hr_thin" class="touchid-icon" row="0"></Image>
+    <Image src="res://hr_thin" row="0" style="width:100%;"></Image>
     <Button (tap)="toggleDisplay()">      
       <FormattedString>
           <Span [text]="isLoggingIn ? 'Apply Now' : 'Back to login'"></Span>
