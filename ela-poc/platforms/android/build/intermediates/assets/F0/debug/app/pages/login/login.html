@@ -16,14 +16,25 @@
     <Label class="normal-text" text="?"></Label>
   </WrapLayout>
 
-  <GridLayout row="0" columns="*, auto" height="50" style.backgroundColor="#444">
+  <GridLayout row="0" columns="*, auto" height="45" class="login-button-row">
     <Button #signin class="submit-button" (tap)="submit()" col="0" row="0">
       <FormattedString>
           <Span [text]="isLoggingIn ? 'Log In' : 'Sign Up'"></Span>
       </FormattedString>
     </Button>
-    <Image src="res://touchid_b" col="1" class="touchid-icon" row="0" col="1"></Image>
+    <GridLayout row="0" col="1" columns="*, auto" style.width="50px">
+      <Image src="res://touchid_b" class="touchid-icon" row="0"></Image>
+      
+      <Label class="highlight-text txt-xsm touch-id-text" text="Touch ID" row="1"></Label>
+    </GridLayout>
   </GridLayout>
 
-  <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" (tap)="toggleDisplay()"></Button>
+  <StackLayout class="apply-button-row">    
+    <Image src="res://hr_thin" class="touchid-icon" row="0"></Image>
+    <Button (tap)="toggleDisplay()">      
+      <FormattedString>
+          <Span [text]="isLoggingIn ? 'Apply Now' : 'Back to login'"></Span>
+      </FormattedString>
+    </Button>
+  </StackLayout>
 </StackLayout>

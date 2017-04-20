@@ -100,6 +100,10 @@
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi-v4\\hr_thin.png",
+        "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\hr_thin.png"
+    },
+    {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxxhdpi-v4\\unchecked_white.png",
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\unchecked_white.png"
     },

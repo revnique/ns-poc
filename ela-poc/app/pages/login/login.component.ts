@@ -89,4 +89,7 @@ export class LoginComponent implements OnInit {
         setHintColor({ view: passwordTextField, color: hintColor });
         //setButtonCaps({ view: signInButton  });
     }
+    touchIdPopup(){
+        console.log("pop up the touch id dialog");
+    }
 }

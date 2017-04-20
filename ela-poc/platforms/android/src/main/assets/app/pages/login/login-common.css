@@ -2,6 +2,8 @@
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 15;
+  padding-right:5;
+  padding-left:5;
   margin-top:10;
 }
 Image {
@@ -16,16 +18,32 @@ TextField {
 .submit-button {
   background-color: #4DC8F2;
   color: white;
-  margin-top: 20;
   text-decoration: capitalize;
   
 }
 
+.txt-xsm{
+  font-size:9;
+}
+.login-button-row{
+  padding-right:7;
+  padding-left:7;
+}
 
-
-
+.touch-id-text{
+  margin-top:25;
+  margin-left:7;
+}
 .touchid-icon{
-  width:75px;
+  width:30;
+  margin-top:3;
+}
+
+
+.apply-button-row{
+  margin-top:20;
+  padding-right:7;
+  padding-left:7;
 }
 
 .forget-text{

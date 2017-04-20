@@ -28,12 +28,12 @@
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\bg_inner.jpg",
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\bg_inner.jpg"
+    },
+    {
+        "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -170,6 +170,10 @@
     {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\logo_signup.png",
         "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\logo_signup.png"
+    },
+    {
+        "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\hr_thin.png",
+        "source": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\hr_thin.png"
     },
     {
         "merged": "C:\\git\\ns\\ns-poc\\ela-poc\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
