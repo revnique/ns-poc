@@ -1,4 +1,15 @@
-<ActionBar title="" android.icon="res://ela_rep_icon_mobile" android.iconVisibility="always"></ActionBar>
+<!--<ActionBar title="" android.icon="res://ela_rep_icon_mobile" android.iconVisibility="always"></ActionBar>-->
+<ActionBar title="">
+  <StackLayout orientation="horizontal"
+    ios:horizontalAlignment="left"
+    ios.position="left"
+    android:horizontalAlignment="left"
+    android.icon="res://ela_rep_icon_mobile" android.iconVisibility="always">
+    <Image src="res://ela_rep_icon_mobile" ios.position="left" class="action-image"></Image>
+  </StackLayout>
+</ActionBar>
+
+
 <StackLayout #container class="main-page">
   <Label class="login-text">
     <FormattedString>
@@ -31,7 +42,7 @@
 
   <StackLayout class="apply-button-row">    
     <Image src="res://hr_thin" row="0" style="width:100%;"></Image>
-    <Button (tap)="toggleDisplay()">      
+    <Button (tap)="toggleDisplay()" class="apply-button">      
       <FormattedString>
           <Span [text]="isLoggingIn ? 'Apply Now' : 'Back to login'"></Span>
       </FormattedString>

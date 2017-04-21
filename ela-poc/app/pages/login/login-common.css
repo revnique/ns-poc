@@ -22,6 +22,12 @@ TextField {
   
 }
 
+.apply-button {
+  background-color: #4DC8F2;
+  color: white;
+  text-decoration: capitalize;
+}
+
 .txt-xsm{
   font-size:9;
 }
@@ -87,9 +93,8 @@ ActionBar{
 
 
 .action-image {
-    width: 40;
-    height: 40;
-    vertical-align: center;
+    vertical-align: middle;
+    text-align: left;
 }
 
 .action-label {
