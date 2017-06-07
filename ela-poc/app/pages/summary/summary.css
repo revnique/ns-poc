@@ -1,0 +1,105 @@
+.main-page {
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 15;
+  padding-right:5;
+  padding-left:5;
+  margin-top:10;
+}
+Image {
+  margin-top: 5;
+  margin-bottom: 20;
+}
+TextField {
+  margin-left: 16;
+  margin-right: 16;
+  margin-bottom: 10;
+}
+.submit-button {
+  background-color: #4DC8F2;
+  color: white;
+  text-decoration: capitalize;
+  
+}
+
+.apply-button {
+  background-color: #4DC8F2;
+  color: white;
+  text-decoration: capitalize;
+}
+
+.txt-xsm{
+  font-size:9;
+}
+.login-button-row{
+  padding-right:7;
+  padding-left:7;
+}
+
+.touch-id-text{
+  margin-top:25;
+  margin-left:7;
+}
+.touchid-icon{
+  width:30;
+  margin-top:3;
+}
+
+
+.apply-button-row{
+  margin-top:20;
+  padding-right:7;
+  padding-left:7;
+}
+
+.forget-text{
+  font-size: 10;
+  margin-left:23;
+  margin-bottom:20;
+}
+.highlight-text{
+  color:#4DC8F2;
+}
+.normal-text{
+  color:#000;
+}
+
+.login-text{
+  Color:Green;
+  font-size: 17px;
+  margin-left:23px;
+  font-family: "serif";
+}
+ActionBar{
+  background-color: #fff;
+  margin-top:0px;
+  margin-left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.action-image {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.action-label {
+    color: #3C5AFD;
+    font-size: 24;
+    font-weight: bold;
+    vertical-align: center;
+}
