@@ -82,31 +82,19 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bWkUsn3zOmhkI5T+MPsDMLAlZNg=
+		hTPm9TwrpASxcGceWo1kHMrbLP8=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
-		k10lDReAp6DFsz30UCpIH8UiWvY=
+		slPT3Y15OiLr/DGPNuU3SjpMYmc=
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		v6rnm33xWzImu4PJtJzB2GuFjhc=
+		TRfEL6595lNYp250RjoTfSWoi+o=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
-		CqyUnSiomEFTQRT/eq/zY0qAFwQ=
-		</data>
-		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
-		<data>
-		FoPMhCdhevxlC+NOBmwXuweGh88=
-		</data>
-		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
-		<data>
-		cY9tL6GUJ+EM6OxTsFp9/DFfFUQ=
-		</data>
-		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
-		<data>
-		/FBm8nxgWLnwiavCNjKT53KAWdY=
+		OxI7qmBgUFgXslw4GBgyd+70s/4=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/Info.plist</key>
 		<data>
@@ -158,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XPGIIptTsPV939q8WO5vQcNuLAs=
+		PRwRRzoGsTqZiAcSurPqjJeZWIQ=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -226,7 +214,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		ERMHHKwkDfZONeJUXj+wLJpd17A=
+		NMrxrNwB95zVPlO+uhHvC8p9Ylg=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -234,7 +222,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		IDFtL7pOzgNdyDUQfEyohtuV7O0=
+		own0eSrUbMr4pCKEj5TD28COU+c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -15713,77 +15701,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bWkUsn3zOmhkI5T+MPsDMLAlZNg=
+			hTPm9TwrpASxcGceWo1kHMrbLP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			rM8/Q1cy80aPwh09W8zxPUBKy111VRhAwrZiIYRwm2k=
+			OVVGRhvpWgzls/py+GJl2TiaqUsvVLPXtr0Dpci+8V0=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k10lDReAp6DFsz30UCpIH8UiWvY=
+			slPT3Y15OiLr/DGPNuU3SjpMYmc=
 			</data>
 			<key>hash2</key>
 			<data>
-			i8GRyBCa1yZCM8Vy2cpA1db7LuIcK7LHWKGYCeM60yg=
+			DDZxahrYIMSV0+WlHViKHZty0GVakwojNmKLnCulGA0=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v6rnm33xWzImu4PJtJzB2GuFjhc=
+			TRfEL6595lNYp250RjoTfSWoi+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lmUadmHsyJhO3UvRI9gTziHSZkaDer/Xn2I8opk8vI=
+			jctvRkIcbT5KHHB+lgehZNMNUKEdXO5rLTi9MXtlGPQ=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CqyUnSiomEFTQRT/eq/zY0qAFwQ=
+			OxI7qmBgUFgXslw4GBgyd+70s/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			og39Fu5MS3lp9kyVXkh03bc1DJ0ZsW3NgdsgTy9UUmc=
-			</data>
-		</dict>
-		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FoPMhCdhevxlC+NOBmwXuweGh88=
-			</data>
-			<key>hash2</key>
-			<data>
-			XwhKjVXYitdAEybWe4hWqsiyszMPr8hbIYnrT/4u+eI=
-			</data>
-		</dict>
-		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cY9tL6GUJ+EM6OxTsFp9/DFfFUQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			G6WAbY6WLHCNrixJsxZMNKEQxA9uiDwb4O8C3nECOfM=
-			</data>
-		</dict>
-		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/FBm8nxgWLnwiavCNjKT53KAWdY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Hoqy/Crt9/2ziezuk7JTxb//+bq7tU5TVs8/b/Ooc5M=
+			kQ5MATrGHKGLZU0HE0a3u/DSMvwJB9QuGxUYjzBrdh0=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/Info.plist</key>
@@ -16098,11 +16053,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ERMHHKwkDfZONeJUXj+wLJpd17A=
+			NMrxrNwB95zVPlO+uhHvC8p9Ylg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hOHmjrKNv42JyGyWkVCpx0ta7atJTJ1fc08h1i6pFfw=
+			BxJEx6aqGOzYfLCQJmJjjH/g4b/RghGCFAyRq2yfJGk=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -16120,11 +16075,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IDFtL7pOzgNdyDUQfEyohtuV7O0=
+			own0eSrUbMr4pCKEj5TD28COU+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			NLsdnrMujNtFjMj7hk0kHhoVKbeH/gTuDgB4469X/sU=
+			5CRkTyGbwZAJgtUtg0FwchfFp/zNxzZW6yJeBNSMmbA=
 			</data>
 		</dict>
 		<key>add.png</key>
