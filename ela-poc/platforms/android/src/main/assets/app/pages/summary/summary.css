@@ -64,6 +64,12 @@ TextField {
   color:#000;
 }
 
+.login-text{
+  Color:Green;
+  font-size: 17px;
+  margin-left:23px;
+  font-family: "serif";
+}
 ActionBar{
   background-color: #555;
   margin-top:0px;
@@ -74,12 +80,6 @@ NavigationButton{
   display: none;
 }
 
-.btn-image{
-  background-color: #555;
-  color: #efefef;
-  width:120;
-  border-radius: 5px;
-}
 
 
 

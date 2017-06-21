@@ -16,7 +16,6 @@ export class SummaryComponent implements OnInit {
 
   firstname = "Yosimite";
   lastname = "Sam";
-  fundsAvailable = "$2750.00";
   listLoaded = false;
   isLoading = false;
   @ViewChild("groceryTextField") groceryTextField: ElementRef;

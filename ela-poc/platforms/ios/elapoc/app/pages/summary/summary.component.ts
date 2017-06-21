@@ -2,7 +2,7 @@ import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { Summary } from "../../shared/summary/summary";
 import { SummaryService } from "../../shared/summary/summary.service";
 import { TextField } from "ui/text-field";
-import * as SocialShare from "nativescript-social-share";
+import * as actionBarModule from "ui/action-bar";
 
 @Component({
   selector: "summary",
@@ -14,9 +14,11 @@ import * as SocialShare from "nativescript-social-share";
 export class SummaryComponent implements OnInit {
   constructor(private summaryService: SummaryService) { };
 
-  grocery = "";
-  isLoading = false;
+  firstname = "Yosimite";
+  lastname = "Sam";
+  fundsAvailable = "$2750.00";
   listLoaded = false;
+  isLoading = false;
   @ViewChild("groceryTextField") groceryTextField: ElementRef;
 
   ngOnInit() {
