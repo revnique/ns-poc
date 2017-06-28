@@ -1,13 +1,45 @@
 <!--<ActionBar title="" android.icon="res://ela_rep_icon_mobile" android.iconVisibility="always"></ActionBar>-->
 
-<ActionBar title="E/levate Elastic">
+<ActionBar title="E/evate Elastic">
   
 </ActionBar>
 
 <StackLayout #container class="main-page">
   <StackLayout class="apply-button-row">
-    <Label class="normal-text" text="Welcome"></Label>
-    <Label class="highlight-text" [(ngModel)]="firstname"></Label>
-    <Label class="highlight-text" [(ngModel)]="lastname"></Label>
+    <WrapLayout orientation="horizontal">
+    <Label class="normal-text txt-smd" text="Welcome,"></Label>
+    <Label class="normal-text txt-smd m-l-xsm" [text]="firstname"></Label>
+    <Label class="normal-text txt-smd m-l-xsm" [text]="lastname"></Label>
+    </WrapLayout>
+
+    <Label class="normal-text txt-smd m-t-lg" text="Funds Available"></Label>
+    <Label class="normal-text txt-xxl m-t-xsm" [text]="fundsAvailable"></Label>
+
+    <Button class="btn-image txt-sm" style="horizontal-align:left;" (tap)="gotoFunds()">    
+      <FormattedString>
+          <Span text="Draw Funds &gt;"></Span>
+      </FormattedString>
+    </Button>
+
+
+    <Label class="normal-text txt-smd m-t-lg" text="Next Payment Due"></Label>
+    <Label class="normal-text txt-xxl m-t-xsm" [text]="nextPaymentDueDate"></Label>
+
+    <Button class="btn-image txt-sm" style="horizontal-align:left; width:220" (tap)="gotoFunds()">    
+      <FormattedString>
+          <Span text="Reschedule Next Payment &gt;"></Span>
+      </FormattedString>
+    </Button>
+
+
+    <Label class="normal-text txt-smd m-t-lg" text="Next Payment Amount"></Label>
+    <Label class="normal-text txt-xxl m-t-xsm" [text]="nextPaymentAmount"></Label>
+
+    <Button class="btn-image txt-sm" style="horizontal-align:left;" (tap)="gotoFunds()">    
+      <FormattedString>
+          <Span text="Pay Now &gt;"></Span>
+      </FormattedString>
+    </Button>
+
   </StackLayout>
 </StackLayout>

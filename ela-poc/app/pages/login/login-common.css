@@ -18,8 +18,7 @@ TextField {
 .submit-button {
   background-color: #4DC8F2;
   color: white;
-  text-decoration: capitalize;
-  
+  text-decoration: capitalize;  
 }
 
 .apply-button {

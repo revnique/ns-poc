@@ -8,23 +8,38 @@
   <StackLayout class="apply-button-row">
     <WrapLayout orientation="horizontal">
     <Label class="normal-text txt-smd" text="Welcome,"></Label>
-    &nbsp;<Label class="normal-text txt-smd" [text]="firstname"></Label>
-    &nbsp;<Label class="normal-text txt-smd" [text]="lastname"></Label>
+    <Label class="normal-text txt-smd m-l-xsm" [text]="firstname"></Label>
+    <Label class="normal-text txt-smd m-l-xsm" [text]="lastname"></Label>
     </WrapLayout>
 
-    <Label class="normal-text txt-sm m-t-lg" text="Funds Available"></Label>
+    <Label class="normal-text txt-smd m-t-lg" text="Funds Available"></Label>
     <Label class="normal-text txt-xxl m-t-xsm" [text]="fundsAvailable"></Label>
 
-<!--<AbsoluteLayout width="100%" height="100%">
-  <Image src="res://delete" class="btn-image" stretch="aspectFit" top="0" left="0"></Image>
-  <Button text="image" class="btn-image" top="20" left="20"></Button>
-</AbsoluteLayout>-->
+    <Button class="btn-image txt-sm" style="horizontal-align:left;" (tap)="gotoFunds()">    
+      <FormattedString>
+          <Span text="Draw Funds &gt;"></Span>
+      </FormattedString>
+    </Button>
 
-<Button class="btn-image txt-sm" style="horizontal-align:left;">    
-  <FormattedString>
-      <Span text="Draw Funds &gt;" style="color:white;"></Span>
-  </FormattedString>
-</Button>
+
+    <Label class="normal-text txt-smd m-t-lg" text="Next Payment Due"></Label>
+    <Label class="normal-text txt-xxl m-t-xsm" [text]="nextPaymentDueDate"></Label>
+
+    <Button class="btn-image txt-sm" style="horizontal-align:left; width:220" (tap)="gotoFunds()">    
+      <FormattedString>
+          <Span text="Reschedule Next Payment &gt;"></Span>
+      </FormattedString>
+    </Button>
+
+
+    <Label class="normal-text txt-smd m-t-lg" text="Next Payment Amount"></Label>
+    <Label class="normal-text txt-xxl m-t-xsm" [text]="nextPaymentAmount"></Label>
+
+    <Button class="btn-image txt-sm" style="horizontal-align:left;" (tap)="gotoFunds()">    
+      <FormattedString>
+          <Span text="Pay Now &gt;"></Span>
+      </FormattedString>
+    </Button>
 
   </StackLayout>
 </StackLayout>

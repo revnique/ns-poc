@@ -16,16 +16,18 @@ export class SummaryComponent implements OnInit {
 
   firstname = "Yosimite";
   lastname = "Sam";
+  fundsAvailable = "$2750.00";
   listLoaded = false;
   isLoading = false;
-  @ViewChild("groceryTextField") groceryTextField: ElementRef;
+  nextPaymentDueDate = "12/07/2017";
+  nextPaymentAmount = "$150.00";
 
   ngOnInit() {
     this.isLoading = true;
     let summaryObj = this.summaryService.load();
   }
-  add() {
-    
+  gotoFunds() {
+    console.log("gotoFunds","i'm here");
   }
   share() {
     
