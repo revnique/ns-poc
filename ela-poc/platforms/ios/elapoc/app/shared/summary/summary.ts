@@ -1,3 +1,14 @@
+
+
 export class Summary {
-  constructor(public id: string, public name: string) {}
+  userId: number;
+  firstname: string;
+  lastname: string;
+  email: string;
+  nextPayDate: Date;
+  fundsAvailable: number;
+  nextPaymentAmount: number;
 }
+
+
+  
